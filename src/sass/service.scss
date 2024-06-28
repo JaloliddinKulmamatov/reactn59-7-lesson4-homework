@@ -1,0 +1,25 @@
+.service__main {
+    background-image: url(/public/service-bg.png);
+    padding: 180px 0 70px 0;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-family: DM Serif Display;
+            font-size: 70px;
+            font-weight: 400;
+            line-height: 87.5px;
+
+    }
+}
+
+.serive__card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 42px;
+    text-align: center;
+    p {
+        margin-bottom: 10px;
+    }
+}

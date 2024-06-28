@@ -2,7 +2,7 @@ import React from 'react'
 
 const Post = ({children}) => {
   return (
-    <div>
+    <div className='post-card'>
         {children}
       <p>
         There are many variations of <br /> the passages of lorem Ipsum from <br /> available,

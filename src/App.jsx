@@ -14,37 +14,39 @@ import searhBtn from "./assets/searchBtn.svg";
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div>
         <header className="navbar">
-          <ul>
-            <li>
-              <img src={logo} alt="logo" />
-              <h1>SELHONO</h1>
-            </li>
-            <span className="nav__links">
-                  <li>
-                    <NavLink to={"/"}>Home</NavLink>
-                  </li>
-                  <li>
-                    <a href="#">Pages</a>
-                  </li>
-                  <li>
-                    <NavLink to={"Sevice"}>Sevice</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to={"Project"}>Project</NavLink>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact</a>             
-                  </li>
-                  <li>
-                    <img src={searhBtn} alt="search" />
-                  </li>
-            </span>
-          </ul>
+          <nav className="container">
+            <ul>
+              <li>
+                <img src={logo} alt="logo" />
+                <h1>SELHONO</h1>
+              </li>
+              <span className="nav__links">
+                <li>
+                  <NavLink to={"/"}>Home</NavLink>
+                </li>
+                <li>
+                  <a href="#">Pages</a>
+                </li>
+                <li>
+                  <NavLink to={"Sevice"}>Sevice</NavLink>
+                </li>
+                <li>
+                  <NavLink to={"Project"}>Project</NavLink>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <img src={searhBtn} alt="search" />
+                </li>
+              </span>
+            </ul>
+          </nav>
           <div>
             <Routes>
               <Route path="/" element={<Home />}></Route>

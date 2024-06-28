@@ -3,7 +3,7 @@ import Post from './Post';
 
 const Home = () => {
   return (
-    <>
+    <div className="container">
       <div className="home__main">
         <h2>
           Let's make your <br /> home beautiful together
@@ -25,7 +25,7 @@ const Home = () => {
           <h3>Realization</h3>
         </Post>
       </div>
-    </>
+    </div>
   );
 }
 

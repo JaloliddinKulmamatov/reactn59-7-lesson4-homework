@@ -1,8 +1,14 @@
 @import url(/css/home.min.css);
+@import url(/css/service.min.css);
+@import url(/css/post.min.css);
 
 :root {
-    --main-font: Georgia,Times,'Times New Roman',serif;
+    --main-font:DM Serif Display;
     --second-font:'Gill Sans','Gill Sans MT','Trebuchet MS',sans-serif;
+}
+
+.active {
+    color: #C76904;
 }
 
 * {
@@ -60,7 +66,3 @@ a {
     color: #000;
 }
 
-.navbar a:hover {
-    transition: 0.5s;
-    color: #C76904;;
-}
