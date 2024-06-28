@@ -1,5 +1,5 @@
 .home__main {
-  background-image: url(../../public/home-bg.png);
+  background-image: url(/home-bg.png);
   width: 100%;
   max-width: 1210px;
   height: 758px;
