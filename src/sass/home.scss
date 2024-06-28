@@ -1,0 +1,48 @@
+    $main-font: Georgia, Times, 'Times New Roman', serif;
+    $second-font: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+.home__main {
+ background-image:  url(../../public/home-bg.png);
+ width: 100%;
+ max-width: 1210px;
+ height: 758px;
+ padding: 45px 75px;
+border-bottom-right-radius: 50px;
+margin-top: 70px;
+ h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px;
+ }
+ p {
+    color: #fff;
+    margin-bottom:25px ;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+ }
+ button {
+    background: #CDA274;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 25px 40px;
+    font-family: $second-font;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.02em;
+    text-align: center;
+ }
+}
+
+.home__main__end {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    p {
+        margin-bottom: 10px;
+    }
+}

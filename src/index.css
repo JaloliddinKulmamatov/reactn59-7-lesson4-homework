@@ -1,0 +1,66 @@
+@import url(/css/home.min.css);
+
+:root {
+    --main-font: Georgia,Times,'Times New Roman',serif;
+    --second-font:'Gill Sans','Gill Sans MT','Trebuchet MS',sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--main-font);
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--main-font);
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--second-font);
+}
+
+
+
+.nav__links {
+    display: flex;
+    gap: 20px;
+}
+
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+
+.navbar {
+    padding-top: 30px;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.navbar a:hover {
+    transition: 0.5s;
+    color: #C76904;;
+}
