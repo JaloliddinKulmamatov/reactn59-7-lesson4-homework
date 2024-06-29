@@ -1,14 +1,11 @@
 @import url(/css/home.min.css);
 @import url(/css/service.min.css);
 @import url(/css/post.min.css);
+@import url(/css/projext.min.css);
 
 :root {
     --main-font:DM Serif Display;
     --second-font:'Gill Sans','Gill Sans MT','Trebuchet MS',sans-serif;
-}
-
-.active {
-    color: #C76904;
 }
 
 * {
@@ -66,3 +63,7 @@ a {
     color: #000;
 }
 
+.active {
+    color: #C76904 !important;
+    font-weight: bold;
+}

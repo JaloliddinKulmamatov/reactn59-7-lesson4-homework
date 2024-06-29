@@ -1,0 +1,86 @@
+ $second-font:'Gill Sans',
+ 'Gill Sans MT',
+ 'Trebuchet MS',
+ sans-serif;
+
+.bedroom-top {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 580px;
+    width: 100%;
+}
+
+.bedroom-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bedroom-bottom h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.bedroom-bottom p {
+    font-size: 16px;
+    color: #777;
+}
+
+.bedroom-bottom button {
+    background: #F4F0EC;
+    border: none;
+    border-radius: 50%;
+    padding: 26px;
+    cursor: pointer;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.project-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: url(/public/project-bg.png);
+    text-align: center;
+    padding: 170px ;
+    h1 {
+        font-family: DM Serif Display;
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 87.5px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.project-nav {
+    margin-bottom: 40px !important;
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    
+    button {
+        padding: 25px 65px;
+        border: none;
+        background-color: #fff;
+        width: 300px;
+        color: #292F36;
+        font-family: $second-font;
+        font-weight: 600;
+    }
+    .bedroom-btn {
+        background: #CDA274;
+        color: #fff;
+        border-radius: 10px;
+    }
+}

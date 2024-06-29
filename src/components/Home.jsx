@@ -12,7 +12,7 @@ const Home = () => {
           There are many variations of the passages of <br /> lorem Ipsum
           fromavailable, majority.
         </p>
-        <button>Get Started - </button>
+        <button>Get Started -> </button>
       </div>
       <div className="home__main__end">
         <Post>
