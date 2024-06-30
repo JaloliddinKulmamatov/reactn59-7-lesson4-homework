@@ -1,14 +1,18 @@
-import { useState, useReducer } from "react";
-import { BrowserRouter as Router,Route,Routes,NavLink } from "react-router-dom";
-
-
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  NavLink,
+} from "react-router-dom";
 import "./App.css";
-import logo from "./assets/logo.svg"
+import logo from "./assets/logo.svg";
 import Sevice from "./components/Sevice";
 import NotFound from "./components/NotFound";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import searhBtn from "./assets/searchBtn.svg";
+import MinBedroom from "./components/MinBedroom";
 
 
 function App() {
@@ -24,16 +28,16 @@ function App() {
               </li>
               <span className="nav__links">
                 <li>
-                  <NavLink to={"/"}>Home</NavLink>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
                   <a href="#">Pages</a>
                 </li>
                 <li>
-                  <NavLink to={"Sevice"}>Sevice</NavLink>
+                  <NavLink to="/Sevice">Sevice</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"Project"}>Project</NavLink>
+                  <NavLink to="/Project">Project</NavLink>
                 </li>
                 <li>
                   <a href="#">Blog</a>
@@ -49,11 +53,12 @@ function App() {
           </nav>
           <div>
             <Routes>
-              <Route path="/" element={<Home />}></Route>
-              <Route path="/Sevice" element={<Sevice />}></Route>
-              <Route path="/Project" element={<Project />}></Route>
-
-              <Route path="*" element={<NotFound />}></Route>
+              <Route path="/" element={<Home />} />
+              <Route path="/Sevice" element={<Sevice />} />
+              <Route path="/Project/*" element={<Project />}>
+                <Route path="bedroom" element={<MinBedroom />} />
+              </Route>
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
         </header>

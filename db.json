@@ -1,0 +1,115 @@
+{
+    "bedroom": [
+        {
+            "title": "Master Bedroom",
+            "id": 1,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/06/Bedroom-inspiration-ideas-by-Courtney-B.jpg",
+            "categoryTitle": "Bedroom"
+        },
+        {
+            "title": "Guest Bedroom",
+            "id": 2,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/06/Bedroom-interior-design-ideas-for-relaxation.jpg",
+            "categoryTitle": "Bedroom"
+        },
+        {
+            "title": "Kids Bedroom",
+            "id": 3,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/06/White-bedroom-design-ideas-with-a-coastal-look-by-Jordan-S.jpg",
+            "categoryTitle": "Bedroom"
+        },
+        {
+            "title": "Home Office",
+            "id": 4,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/06/Glamorous-yet-peaceful-bedroom-design-ideas.jpg",
+            "categoryTitle": "Bedroom"
+        },
+        {
+            "title": "Storage Room",
+            "id": 5,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/06/Bedroom-layout-ideas-and-furniture-placement-by-Jamie-M.jpg",
+            "categoryTitle": "Bedroom"
+        },        {
+            "title": "Storage Room",
+            "id": 6,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/06/Bedroom-paint-color-ideas-for-a-zen-interior-by-Anna-Y.jpg",
+            "categoryTitle": "Bedroom"
+        }
+    ],
+    "bathroom": [
+        {
+            "title": "Master Bathroom",
+            "id": 1,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2022/09/Master-bathroom-trends-2023-Erin-H.jpg",
+            "categoryTitle": "Bathroom"
+        },
+        {
+            "title": "Guest Bathroom",
+            "id": 2,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2022/09/Industrial-bathroom-tile-trends-2023.jpg",
+            "categoryTitle": "Bathroom"
+        },
+        {
+            "title": "Kids Bathroom",
+            "id": 3,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/05/Arty-bathroom-trends-2023.jpg",
+            "categoryTitle": "Bathroom"
+        },
+        {
+            "title": "Powder Room",
+            "id": 4,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/01/2023-bathroom-trends-and-ideas-in-metallic-and-black-by-Lauren-O.jpg",
+            "categoryTitle": "Bathroom"
+        },
+        {
+            "title": "Spa Bathroom",
+            "id": 5,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/01/Bathroom-ideas-2023-show-minimal-wall-sconces-like-this-design-by-Courtney-B.jpg",
+            "categoryTitle": "Bathroom"
+        },
+        {
+            "title": "Utility Bathroom",
+            "id": 6,
+            "img": "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-dbdb5de/www.decorilla.com/online-decorating/wp-content/uploads/2023/05/Bathroom-designs-2023-favor-big-tubs.jpg",
+            "categoryTitle": "Bathroom"
+        }
+    ],
+    "kitchen": [
+        {
+            "title": "Modern Kitchen",
+            "id": 1,
+            "img": "modern_kitchen.jpg",
+            "categoryTitle": "Kitchen"
+        },
+        {
+            "title": "Country Kitchen",
+            "id": 2,
+            "img": "country_kitchen.jpg",
+            "categoryTitle": "Kitchen"
+        },
+        {
+            "title": "Gourmet Kitchen",
+            "id": 3,
+            "img": "gourmet_kitchen.jpg",
+            "categoryTitle": "Kitchen"
+        },
+        {
+            "title": "Compact Kitchen",
+            "id": 4,
+            "img": "compact_kitchen.jpg",
+            "categoryTitle": "Kitchen"
+        },
+        {
+            "title": "Outdoor Kitchen",
+            "id": 5,
+            "img": "outdoor_kitchen.jpg",
+            "categoryTitle": "Kitchen"
+        },
+        {
+            "title": "Industrial Kitchen",
+            "id": 6,
+            "img": "industrial_kitchen.jpg",
+            "categoryTitle": "Kitchen"
+        }
+    ]
+}

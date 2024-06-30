@@ -3,7 +3,6 @@
 }
 
 img {
-  max-width: 580px;
   width: 100%;
 }
 
@@ -41,10 +40,14 @@ img {
   cursor: pointer;
 }
 
-.project-list {
+.min-bedroom {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
+}
+.min-bedroom img {
+  max-width: 1100px;
+  height: 350px;
 }
 
 .project-header {
