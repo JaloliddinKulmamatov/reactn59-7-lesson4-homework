@@ -78,37 +78,37 @@
         {
             "title": "Modern Kitchen",
             "id": 1,
-            "img": "modern_kitchen.jpg",
+            "img": "https://www.marthastewart.com/thmb/jE4LDSkfYMw91OmL-KUaTH92aiA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CarenRideau_Chandler_MeghanBobPhoto_CoffeeNookStraight1_WEB-fee8b71e719e4030829c1960b86dd405-a07cc754d04645698d4b3e6e164e300c.jpeg",
             "categoryTitle": "Kitchen"
         },
         {
             "title": "Country Kitchen",
             "id": 2,
-            "img": "country_kitchen.jpg",
+            "img": "https://www.marthastewart.com/thmb/LyJBuM_WyMwZcc_iV-6KTRwrRb4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/carolyn-murphy-home-kitchen-msl0918-0512-onecms-d21fd58e4e9b490db1af6ba34ab24028.jpg",
             "categoryTitle": "Kitchen"
         },
         {
             "title": "Gourmet Kitchen",
             "id": 3,
-            "img": "gourmet_kitchen.jpg",
+            "img": "https://www.marthastewart.com/thmb/_wck8eNTzkrdap2SGqMwQ3jQ5dk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/kitchen-remodel-kitchenaid-lighting-0921-2000-6707c020af9349f1b06e2b855cc2e42f.jpg",
             "categoryTitle": "Kitchen"
         },
         {
             "title": "Compact Kitchen",
             "id": 4,
-            "img": "compact_kitchen.jpg",
+            "img": "https://www.marthastewart.com/thmb/VJ9qMIJlTySMfeSbHeNb5DIfb0I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/powder-blue-kitchen-black-finishes-0120-2000-9950c9f10e234f868a43a8086ba5454f.jpg",
             "categoryTitle": "Kitchen"
         },
         {
             "title": "Outdoor Kitchen",
             "id": 5,
-            "img": "outdoor_kitchen.jpg",
+            "img": "https://www.marthastewart.com/thmb/OJBgq8AXRyBdnI97Pv4xzl0zdWk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/kitchen-paint-2019-terracotta-0119-2b1e1d73fddb4e87afa274dac7dc133e.jpg",
             "categoryTitle": "Kitchen"
         },
         {
             "title": "Industrial Kitchen",
             "id": 6,
-            "img": "industrial_kitchen.jpg",
+            "img": "https://www.marthastewart.com/thmb/dFOGL2xgxM2m-IzmCV7c_GHToL8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/kitchen-remodel-kitchenaid-countertops-0921-2000-cc04a375bf81451590eb923cef9c0a70.jpg",
             "categoryTitle": "Kitchen"
         }
     ]

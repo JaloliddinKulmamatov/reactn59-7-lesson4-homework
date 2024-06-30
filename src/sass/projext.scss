@@ -1,7 +1,4 @@
- $second-font:'Gill Sans',
- 'Gill Sans MT',
- 'Trebuchet MS',
- sans-serif;
+$second-font: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 
 .bedroom-top {
     margin-bottom: 20px;
@@ -11,6 +8,59 @@ img {
     width: 100%;
 }
 
+.min-bedroom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+    img {
+        max-width: 900px;
+        height: 350px;
+    }
+}
+
+.project-header {
+    margin: 40px 0;
+    background-image: url(/public/project-bg.png);
+    text-align: center;
+    padding: 170px;
+
+    h1 {
+        font-family: 'DM Serif Display';
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 87.5px;
+        color: #FFFFFF;
+    }
+}
+
+.project-nav {
+    width: 67rem;
+    margin-bottom: 40px !important;
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+
+    .NavLink {
+        button {
+            width: 22rem;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            padding: 25px 65px;
+            color: #292F36;
+            font-family: $second-font;
+            font-weight: 600;
+            background-color: transparent;
+
+            &.active {
+                background-color: #CDA274;
+                color: #fff;
+            }
+        }
+    }
+}
+
 .bedroom-bottom {
     display: flex;
     justify-content: space-between;
@@ -18,72 +68,31 @@ img {
     background-color: #f8f8f8;
     padding: 10px;
     border-radius: 10px;
-}
 
-.bedroom-bottom h3 {
-    font-size: 20px;
-    color: #333;
-    margin: 0;
-}
-
-.bedroom-bottom p {
-    font-size: 16px;
-    color: #777;
-}
-
-.bedroom-bottom button {
-    background: #F4F0EC;
-    border: none;
-    border-radius: 50%;
-    padding: 26px;
-    cursor: pointer;
-}
-
-.min-bedroom{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    img {
-        max-width: 1100px;
-        height: 350px;
+    h3 {
+        font-size: 20px;
+        color: #333;
+        margin: 0;
     }
-}
 
-.project-header {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-image: url(/public/project-bg.png);
-    text-align: center;
-    padding: 170px ;
-    h1 {
-        font-family: DM Serif Display;
-        font-size: 70px;
-        font-weight: 400;
-        line-height: 87.5px;
-        text-align: center;
-        color: #FFFFFF;
+    p {
+        font-size: 16px;
+        color: #777;
     }
-}
 
-.project-nav {
-    margin-bottom: 40px !important;
-    border: 1px solid;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    
     button {
-        padding: 25px 65px;
+        background: #F4F0EC;
         border: none;
-        background-color: #fff;
-        width: 300px;
-        color: #292F36;
-        font-family: $second-font;
-        font-weight: 600;
+        border-radius: 50%;
+        padding: 26px;
+        cursor: pointer;
     }
-    .bedroom-btn {
-        background: #CDA274;
-        color: #fff;
-        border-radius: 10px;
-    }
+}
+
+.active-button {
+    background-color: #4caf50;
+    /* Green background when active */
+    color: white;
+    /* White text color when active */
+    /* Add any other styles you want for the active button */
 }

@@ -13,7 +13,8 @@ import Home from "./components/Home";
 import Project from "./components/Project";
 import searhBtn from "./assets/searchBtn.svg";
 import MinBedroom from "./components/MinBedroom";
-
+import MinBath from "./components/MinBath";
+import MinKitchen from "./components/MinKitchen"
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
               <Route path="/Sevice" element={<Sevice />} />
               <Route path="/Project/*" element={<Project />}>
                 <Route path="bedroom" element={<MinBedroom />} />
+                <Route path="bathroom" element={<MinBath />} />
+                <Route path="kitchen" element={<MinKitchen />} />
               </Route>
               <Route path="*" element={<NotFound />} />
             </Routes>

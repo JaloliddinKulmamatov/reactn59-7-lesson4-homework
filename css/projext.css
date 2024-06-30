@@ -6,6 +6,57 @@ img {
   width: 100%;
 }
 
+.min-bedroom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.min-bedroom img {
+  max-width: 900px;
+  height: 350px;
+}
+
+.project-header {
+  margin: 40px 0;
+  background-image: url(/public/project-bg.png);
+  text-align: center;
+  padding: 170px;
+}
+.project-header h1 {
+  font-family: "DM Serif Display";
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 87.5px;
+  color: #FFFFFF;
+}
+
+.project-nav {
+  width: 67rem;
+  margin-bottom: 40px !important;
+  border: 1px solid;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.project-nav .NavLink button {
+  width: 22rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 25px 65px;
+  color: #292F36;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+}
+.project-nav .NavLink button.active {
+  background-color: #CDA274;
+  color: #fff;
+}
+
 .bedroom-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,18 +71,15 @@ img {
   padding: 10px;
   border-radius: 10px;
 }
-
 .bedroom-bottom h3 {
   font-size: 20px;
   color: #333;
   margin: 0;
 }
-
 .bedroom-bottom p {
   font-size: 16px;
   color: #777;
 }
-
 .bedroom-bottom button {
   background: #F4F0EC;
   border: none;
@@ -40,54 +88,10 @@ img {
   cursor: pointer;
 }
 
-.min-bedroom {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
-.min-bedroom img {
-  max-width: 1100px;
-  height: 350px;
-}
-
-.project-header {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-image: url(/public/project-bg.png);
-  text-align: center;
-  padding: 170px;
-}
-.project-header h1 {
-  font-family: DM Serif Display;
-  font-size: 70px;
-  font-weight: 400;
-  line-height: 87.5px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.project-nav {
-  margin-bottom: 40px !important;
-  border: 1px solid;
-  border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.project-nav button {
-  padding: 25px 65px;
-  border: none;
-  background-color: #fff;
-  width: 300px;
-  color: #292F36;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  font-weight: 600;
-}
-.project-nav .bedroom-btn {
-  background: #CDA274;
-  color: #fff;
-  border-radius: 10px;
+.active-button {
+  background-color: #4caf50;
+  /* Green background when active */
+  color: white;
+  /* White text color when active */
+  /* Add any other styles you want for the active button */
 }

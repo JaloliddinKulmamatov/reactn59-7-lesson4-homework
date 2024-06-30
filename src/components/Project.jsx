@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import MinBedroom from "./MinBedroom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -10,21 +9,31 @@ const Project = () => {
       </header>
       <aside>
         <div className="project-nav container">
-          <button>
-            <Link to={"bathroom"}>Bathroom</Link>
-          </button>
-          <button>
-            <Link to={"bedroom"}>Bedroom</Link>
-          </button>
-          <button>
-            <Link to={"kitchen"}>Kitchen</Link>
-          </button>
+          <NavLink
+            className="NavLink"
+            to="bathroom"
+            activeClassName="active-button"
+          >
+            <button>Bathroom</button>
+          </NavLink>
+          <NavLink
+            className="NavLink"
+            to="bedroom"
+            activeClassName="active-button"
+          >
+            <button>Bedroom</button>
+          </NavLink>
+          <NavLink
+            className="NavLink"
+            to="kitchen"
+            activeClassName="active-button"
+          >
+            <button>Kitchen</button>
+          </NavLink>
         </div>
-        <div className="project-list container">
-          <MinBedroom />
-        </div>
+        <div className="project-list container"></div>
       </aside>
-      <div>
+      <div className="container">
         <Outlet />
       </div>
     </div>
